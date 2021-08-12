@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/click_camera_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:backgroundTint="@color/teal_700"
+        android:text="Click me to scan QR code"
+        android:textAllCaps="false"
+        android:textColor="@color/white" />
+
+<!--    <include
+
+        android:id="@+id/included_layout"
+        android:visibility="gone"
+        layout="@layout/loading_layout" />-->
+
+</RelativeLayout>
